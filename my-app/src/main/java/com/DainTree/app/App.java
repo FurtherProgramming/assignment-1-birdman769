@@ -1,9 +1,13 @@
-import java.util.ArrayList; 
-public class Main {
 
-    public static void main(String[] args) {
+package com.DainTree.app;
+import java.util.Scanner; 
+import java.util.ArrayList; // import the ArrayList class
 
-        ShopManager bookShop = new ShopManager(); //create our shop
+public class App 
+{
+    public static void main( String[] args )
+    {
+         ShopManager bookShop = new ShopManager(); //create our shop
 
         //our test case books
         bookShop.addBook("Absolute Java","Savitch",50.00,8.00,5, true);
@@ -13,10 +17,10 @@ public class Main {
         bookShop.addBook("Java Program Design","Cohoon and Davidson",50.00,8.00,1, true);
         bookShop.runSession(); //run our shop session 
 
-      
-
-
-        
     }
-
 }
+
+
+
+
+

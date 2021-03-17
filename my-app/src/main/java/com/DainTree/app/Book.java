@@ -1,4 +1,5 @@
-public  class Book {
+package com.DainTree.app;
+public class Book {
     private String title;
     private String author;
     private double hardPrice;

@@ -189,6 +189,7 @@ public class ShopManager {
         }
         System.out.println("Checkout complete- items total value is: $"+totalCost);
         totalCost =0;
+        customerCart.clear(); //empty cart
 
 
     }

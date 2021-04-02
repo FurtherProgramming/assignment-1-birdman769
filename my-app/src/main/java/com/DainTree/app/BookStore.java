@@ -3,7 +3,7 @@ package com.DainTree.app;
 import java.util.Scanner; 
 import java.util.ArrayList; // import the ArrayList class
 
-public class ShopManager {
+public class BookStore {
     ArrayList<Book> bookList = new ArrayList<Book>(); //an array of all purchasable books
     ArrayList<Cart> customerCart = new ArrayList<Cart>(); // an array of the books our customer wishes to purchase. 
     private String userInput= " "; // empty variable for storing user input 
